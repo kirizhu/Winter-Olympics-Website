@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                    <!-- <div>{{selectedCity}}</div>
+                    <!-- <div></div>
                     <div id="date1"></div>
                     <div id="date2"></div> -->
                 
