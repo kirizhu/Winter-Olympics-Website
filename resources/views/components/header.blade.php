@@ -60,16 +60,16 @@
                 <ul class="navbar-nav ml-auto pl-5">
 
                     <li class="nav-item list">
-                        <a class="nav-link lang" key="home" href="home.blade.php" style="font-size: 18px"></a>
+                        <a class="nav-link lang" key="home" href="home" style="font-size: 18px"></a>
                     </li>
                     <li class="nav-item list">
-                        <a class="nav-link lang" key="event" href="events.blade.php" style="font-size: 18px"></a>
+                        <a class="nav-link lang" key="event" href="events" style="font-size: 18px"></a>
                     </li>
                     <li class="nav-item list">
-                        <a class="nav-link lang" key="city" href="city.blade.php" style="font-size: 18px"></a>
+                        <a class="nav-link lang" key="city" href="city" style="font-size: 18px"></a>
                     </li>
                     <li class="nav-item list">
-                        <a class="nav-link lang" key="about" href="about.blade.php" style="font-size: 18px"></a>
+                        <a class="nav-link lang" key="about" href="about" style="font-size: 18px"></a>
                     </li>
 
                 </ul>
