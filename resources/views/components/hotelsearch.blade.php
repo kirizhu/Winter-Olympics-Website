@@ -168,8 +168,10 @@
                         + checkoutD + "&label=SESto201805021105156592fgd,SESto201805141453552059fdd,r2r_HomepageSearch,1d:2,201805141358";
                         
                         console.log(linkAddress);
-                        window.location.href = linkAddress;
-                        // window.location.replace(linkAddress);
+                        // window.location.href = linkAddress;
+                        //window.open(linkAddress, '_blank');
+                        var win = window.open(linkAddress, '_blank');
+                        win.focus();
 
                     }
                 </script>
