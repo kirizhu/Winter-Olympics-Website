@@ -1,10 +1,12 @@
+ 
  @include('components.header')
 
 
     <div class="container" style="margin-top:75px; margin-bottom: 85px">
-        <?php include "components/carousel.blade.php" ?>
-        <?php include "components/routesearch.blade.php" ?>
-        <?php include "components/routeresult.blade.php" ?>
+    @include('components.carousel')
+    @include('components.routesearch')
+    @include('components.routeresult')
+    
     </div>
     
-<?php include "components/footer.blade.php" ?>
+    @include('components.footer')
