@@ -60,7 +60,7 @@
                 <ul class="navbar-nav ml-auto pl-5">
 
                     <li class="nav-item list">
-                        <a class="nav-link lang" key="home" href="home" style="font-size: 18px"></a>
+                        <a class="nav-link lang" key="home" href="/" style="font-size: 18px"></a>
                     </li>
                     <li class="nav-item list">
                         <a class="nav-link lang" key="event" href="events" style="font-size: 18px"></a>
