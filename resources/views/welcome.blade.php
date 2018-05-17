@@ -124,7 +124,7 @@
             </div>  <!-- END OF CONTAINER  -->
         </div> <!--  END OF APP DIV -->
 
-    <script src="https://tosweden-hero.herokuapp.com/js/app.js"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     </body>
 </html>
