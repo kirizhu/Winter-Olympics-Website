@@ -1,4 +1,4 @@
-<?php include "components/header.blade.php" ?>
+ @include('components.header')
 
 
     <div class="container" style="margin-top:75px; margin-bottom: 85px">
