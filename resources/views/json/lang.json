@@ -22,8 +22,8 @@
         "cheapest": "Option 2 (Cheapest): ",
         "least": "Option 3 (Least transfer): ",
         "fromLocation": "Anywhere...",
-        "checkin": "Check in",
-        "checkout": "Check out"
+        "checkin": "Click to pick a date",
+        "checkout": "Click to pick a date"
         
     },
     "ch" : {
@@ -31,7 +31,7 @@
         "event": "项目",
         "city": "城市/住宿",
         "about": "关于",
-        "copyright": "版权所有 © 牛顿项目第6组",
+        "copyright": "版权所有 © 第6组",
         "contact": "联系",
         "feedback": "反馈",
         "select": "选择",
@@ -49,8 +49,8 @@
         "cheapest": "选择 2 (最便宜线路): ",
         "least": "选择 3 (最方便线路): ",
         "fromLocation": "任意地点...",
-        "checkin": "入住",
-        "checkout": "离开"
+        "checkin": "点击选择日期",
+        "checkout": "点击选择日期"
     },
     "sv" : {
         "home": "Hem",
@@ -75,7 +75,7 @@
         "cheapest": "Alternativ 2 (Billigast): ",
         "least": "Alternativ 3 (Minsta överföring): ",
         "fromLocation": "Var som helst...",
-        "checkin": "Checka in",
-        "checkout": "Checka ut"
+        "checkin": "Välja datum",
+        "checkout": "Välja datum"
     }
 }

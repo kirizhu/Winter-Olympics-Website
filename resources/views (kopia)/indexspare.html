@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="Group6" content="2Sweden">
+    <title>Welcome to Sweden</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="img-rounded" style="height: 35px; width: auto; background-color: #2d5fa1;
+                         border-radius: 5px;" src="img/2sweden.png" alt="2Sweden">
+                <span class="title-2sweden">
+                    To Sweden
+                </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarResponsive">
+                <ul class="navbar-nav ml-auto pl-5">
+
+                    <li class="nav-item list">
+                        <a class="nav-link" href="#" style="font-size: 18px">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item list">
+                        <a class="nav-link" href="#" style="font-size: 18px">
+                            Events
+                        </a>
+                    </li>
+                    <li class="nav-item list">
+                        <a class="nav-link" href="#" style="font-size: 18px">
+                            Cities/Hotels
+                        </a>
+                    </li>
+                    <li class="nav-item list">
+                        <a class="nav-link" href="#" style="font-size: 18px">
+                            About
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+
+
+    <div class="container mt-5">
+
+        <!-- Carousel -->
+        <div id="carousel-img" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="#carousel-img" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-img" data-slide-to="1"></li>
+                <li data-target="#carousel-img" data-slide-to="2"></li>
+            </ul>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel-img‎-1.jpg" alt="Stockholm" style="width:100%;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-img‎-2.jpg" alt="Falun" style="width:100%;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-img‎-2.jpg" alt="Åre" style="width:100%;">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carousel-img" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-img" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <!-- End of Carousel -->
+
+        <!-- Search Form -->
+        <div class="container my-3">
+            <div class="col-xs-12 col-sm-111 col-md-10 col-lg-8 col-center-block box">
+
+                <!-- Data is send to "php/search.php" -->
+                <form class="form-route" action="php/search.php" method="POST">
+                    <!-- From / To -->
+                    <div class="row">
+                        <div class="form-group box-center location-size col-lg-4">
+                            <label class="sr-only" for="from-location">From:</label>
+                            <input type="text" class="form-control search-text" id="from-location" placeholder="Anywhere..." name="from-location">
+                        </div>
+
+                        <!-- Hide this swap_horiz symbol under narrow screan, with JS -->
+                        <div class="box-center col-lg-1">
+                            <i class="material-icons revers-button" onclick="fun-reverse()">swap_horiz</i>
+                        </div>
+                        <!-- Font awesome -->
+                        <!-- <i class="fa fa-car"></i> -->
+
+
+                        <div class="form-group box-center location-size col-lg-4">
+                            <div class="" style="width: 100%; height: 100%;">
+                                <select class="combobox location-size search-text" id="to-location" name="to-location">
+                                    <option>Select</option>
+                                    <option value="Stockholm">Stockholm</option>
+                                    <option value="Falun">Falun</option>
+                                    <option value="Are">Åre</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button class="box-center search-button col-lg-2" type="submit">Search</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <!-- End of Search Form -->
+
+        <!-- Result-->
+        <!-- From/To info -->
+        <div class="container box-temp">
+            <div class="row">
+                <!-- From/To -->
+                <div class="col-lg-2 col-md-3 col-sm-4 info-label">
+                    <span>From:</span>
+                    <span id="from-place"></span>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 info-label">
+                    <span>To:</span>
+                    <span id="to-place"></span>
+                </div>
+
+                <!-- Print/Share -->
+                <div class="col-lg-7 col-md-5" style="text-align: right">
+                    <button class="btn share-button" onclick="fun-print()">
+                        <i class="fa fa-print"></i> Print</button>
+                    <button class="btn share-button" onclick="fun-share()">
+                        <i class="fa fa-share-alt"></i> Share</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- End of From/To info -->
+
+        <div class="container mb-3">
+            <div class="row">
+                <!-- Route List -->
+                <div class="col-md-4 col-sm-12 box-temp" style="height: 500px;">
+                    <ul class="pl-1">
+                        <li class="route-list mt-3">
+                            <i class="fa fa-object-ungroup"></i>
+                            <!-- <i class="material-icons">linear_scale</i> -->
+                            <span>Option 1 (Shortest Time): </span>
+
+                            <!-- if shortest time -->
+                            <div>
+                                <i class="fa fa-plane"></i>
+                                <!-- additional route info -->
+                            </div>
+                            <!-- if cheapest -->
+                            <div>
+                                <i class="fa fa-train"></i>
+                                <!-- additional route info -->
+                            </div>
+                            <!-- if least transfer -->
+                            <div>
+                                <i class="fa fa-bus"></i>
+                                <!-- additional route info -->
+                            </div>
+                            <hr>
+                        </li>
+                        <li class="route-list">
+                            <i class="fa fa-object-ungroup"></i>
+                            <span>Option 2 (Cheapest): </span>
+                            <div>
+                                <i class="fa fa-plane"></i>
+                                <!-- additional route info -->
+                            </div>
+                            <hr>
+                        </li>
+
+                        <li class="route-list mb-3">
+                            <i class="fa fa-object-ungroup"></i>
+                            <span>Option 3 (Least transfr): </span>
+                            <div>
+                                <i class="fa fa-plane"></i>
+                                <!-- additional route info -->
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- End of Route List -->
+
+                <!-- Map -->
+                <div class="col-md-8 col-sm-12 box-temp" style="height: 500px;">
+
+                </div>
+                <!-- End of Map -->
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>

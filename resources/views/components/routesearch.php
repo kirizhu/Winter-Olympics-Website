@@ -1,33 +1,65 @@
 <!-- Search Form -->
 <div class="container my-3">
-    <div class="col-xs-12 col-sm-111 col-md-10 col-lg-8 col-center-block box">
+    <div class="col-xs-12 col-md-10 col-lg-8 col-center-block box">
 
         <!-- Data is send to "php/search.php" -->
         <form class="form-route" action="php/search.php" method="POST">
             <!-- From / To -->
-            <div class="row">
-                <div class="form-group box-center location-size col-lg-4">
-                    <label class="sr-only lang" key="from" for="from-location"></label>
-                    <input type="text" class="form-control search-text" id="fromLocation" placeholder="Anywhere..." name="fromLocation">
+            <div class="form-row">
+            
+                <!-- 1.Left side icons, Hide under wide screen -->
+                <div class="form-group col-md-1 col-1 d-md-none center" >
+                    <ul class="center" style="list-style-type:none; color:white; padding-left:0;">
+                        <li>
+                            <i class="material-icons">add_circle_outline</i>
+                        </li>
+                        <li>
+                            <i class="material-icons">more_vert</i>
+                        </li>
+                        <li>
+                            <i class="material-icons">place</i>
+                        </li>
+                    </ul>
                 </div>
+                
+                <div class="form-group col-10 col-md-12" style="margin-bottom:0">
+                    <div class="form-row">
+                        <!-- 2. From location -->
+                        <div class="form-group box-center location-size col-md-4 col-10" >
+                            <label class="sr-only lang" key="from" for="from-location"></label>
+                            <input type="text" class="form-control search-text" id="fromLocation" placeholder="Anywhere..." name="fromLocation">
+                        </div>
 
-                <!-- Hide this swap_horiz symbol under narrow screan, with JS -->
-                <div class="box-center col-lg-1">
-                    <i class="material-icons revers-button" onclick="fun-reverse()">swap_horiz</i>
-                </div>
+                        <!-- 3. Reverse button with large screen, Hide under narrow screan -->
+                        <div class="form-group box-center col-md-1 d-none d-lg-block">
+                            <i class="material-icons revers-button" onclick="fun-reverse()">swap_horiz</i>
+                        </div>
+                        
+                        <!-- 4. To location(Select, Option) -->
+                        <div class="form-group box-center location-size col-md-4 col-10">
+                            <div class="" style="width: 100%; height: 100%;">
+                                <select class="combobox location-size search-text" id="to-location" name="to-location">
+                                    <option class="lang" key="select"></option>
+                                    <option class="lang" key="stockholm" value="Stockholm"></option>
+                                    <option class="lang" key="falun" value="Falun"></option>
+                                    <option class="lang" key="are" value="Are"></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-2 d-none d-md-block">
+                            <button class="box-center search-button lang" key="search" type="submit"></button>
+                        </div>
 
-                <div class="form-group box-center location-size col-lg-4">
-                    <div class="" style="width: 100%; height: 100%;">
-                        <select class="combobox location-size search-text" id="to-location" name="to-location">
-                            <option class="lang" key="select"></option>
-                            <option class="lang" key="stockholm" value="Stockholm"></option>
-                            <option class="lang" key="falun" value="Falun"></option>
-                            <option class="lang" key="are" value="Are"></option>
-                        </select>
                     </div>
                 </div>
 
-                <button class="box-center search-button col-lg-2 lang" key="search" type="submit"></button>
+                <!-- 5. Right side reverse button, Hide under wide screen -->
+                <div class="form-group col-md-1 col-1 d-md-none center" style="color:white; font-size:2rem;">
+                    <i class="material-icons">import_export</i>
+                </div>
+                
+                <button class="box-center search-button col-10 d-md-none lang" key="search" type="submit"></button>
+                
             </div>
 
         </form>

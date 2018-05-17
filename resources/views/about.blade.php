@@ -1,5 +1,8 @@
 <?php include "components/header.php" ?>
-<div class="container mt-5" style="height:800px; border:3px solid #ffca20"></div>
+<div class="container" style="margin-top:75px; margin-bottom: 85px">
+
+
+</div>
 
 
 

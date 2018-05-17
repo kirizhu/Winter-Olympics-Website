@@ -8,10 +8,17 @@
     border-radius: 5px;
     background-color: #2d5fa1ce;
 }
+.center{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.input-text {
+    color: white;
+}
 
 .box-temp {
     border: 2px solid #ffca20;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .col-center-block {  
@@ -26,7 +33,6 @@
     min-width: 193px;
     height: 2.5rem;
     border-radius: 10px;
-    background-color: #f1f1f1;
 }
 
 .box-center {
@@ -42,14 +48,14 @@
 
 .datehotel {
     margin: 0;
-    border: 1 solid red;
-    border-radius: 50px;
+    border: 1 solid transparent;
+    border-radius: 10px;
     text-align: left;
     height: 2rem;
     min-height: 50px;
     width: 100%;
-    
 }
+
 /* .datehotel {
     margin: 0;
     border: none;
@@ -59,7 +65,7 @@
     height: 2rem;
     min-height: 50px;
     width:100%;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 0; 
 } */
 
@@ -75,10 +81,8 @@
 .search-button {
     background-color: #e3e3e3;
     font-size: 1.2rem;
-    border-radius: 5px;
+    border-radius: 10px;
     width:100%;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
     -webkit-transition-duration: 2s; /* Safari */
     transition-duration: 2s;
 }
@@ -92,7 +96,7 @@
     background-color: transparent;
     font-size: 2 rem;
     border: 1px solid #2d5fa1;
-    border-radius: 2px;
+    border-radius: 5px;
     color: #2d5fa1;
     padding: 5px 6px;
     cursor: pointer;
@@ -104,6 +108,7 @@
     width: 100%;
     height: 100%;
     font-size: 1.2rem;
+    border: none;
 }
 .language {
     width: 80%;
@@ -114,7 +119,9 @@
 }
 
 .revers-button {
-    font-size: 3rem;
+    margin: auto;
+    padding-top: 0.5rem;
+    font-size: 2rem;
     color: white;
 }
 

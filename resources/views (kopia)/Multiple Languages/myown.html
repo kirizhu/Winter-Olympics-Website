@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multiple Languages using Jquery and Json</title>
+
+    <!-- Jquery -->
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+</head>
+<body>
+    <div>
+        <select id="language" onchange="setLanguage()" name="language">
+            <option value="sv">Svenska</option>
+            <option value="en" selected>English</option>
+            <option value="ch">中文</option>
+        </select>
+        <br><br>
+    </div>
+
+    <ul>
+        <li class="lang" key="home">Home</li>
+        <li class="lang" key="about">About us</li>
+        <li class="lang" key="contact">Contact us</li>
+        <li class="lang" key="other">Other</li>
+    </ul>
+
+    <div id="lan-demo"></div>
+
+    <script>
+        var arrLang;
+        // var lang = localStorage.getItem('lang') || 'en-gb';
+        var lang = localStorage.getItem('lang') || 'en';
+    
+
+        $.getJSON("lang.json", function(result){
+            arrLang = result;
+        });
+        function setLanguage() {
+            var langValue = document.getElementById("language").value;
+            document.getElementById("lan-demo").innerHTML = langValue + " selected";
+
+            localStorage.setItem('lang', $(this).attr('id'));
+
+            // loop language element to each items when clicked
+            $('.lang').each(function(index, element){
+                $(this).text(arrLang[langValue][$(this).attr('key')]);
+            });
+        };
+    </script>
+    
+</body>
+</html>

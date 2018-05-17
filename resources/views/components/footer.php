@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer fixed-bottom">
     <div class="container">
         <div class="row">
             <!-- copyright -->
@@ -77,7 +77,29 @@
 
 
 
+
+                    // On first load
+                    $(function() {
+                        switchSize();
+                    });
+                    
+                    // When browser resized
+                    $(window).on('resize', function(){
+                        switchSize();
+                    });
+                    
+                    function switchSize() {
+                        if ($(this).width() < 768) { // on mobile
+                            $('.footer').removeClass('fixed-bottom');
+                            $('.input-line').addClass('row');
+                            $('.input-text').addClass('col-4 text-left align-right mt-2');
+                            $('.datehotel').addClass('col-8');
+                        }
+                    }
+
+                    
                 </script>
+
 
             </div>
         </div>

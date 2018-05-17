@@ -15,7 +15,7 @@
         <img src="img/carousel-img‎-2.jpg" alt="Falun" style="width:100%;">
     </div>
     <div class="carousel-item">
-        <img src="img/carousel-img‎-2.jpg" alt="Åre" style="width:100%;">
+        <img src="img/carousel-img‎-3.jpg" alt="Åre" style="width:100%;">
     </div>
 </div>
 
