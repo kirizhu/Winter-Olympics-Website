@@ -1,10 +1,13 @@
-<?php include "components/header.php" ?>
-<div class="container" style="margin-top:75px; margin-bottom: 85px">
+ 
+ @include('components.header')
 
-    <?php include "components/carousel.php" ?>
-    <?php include "components/hotelsearch.php" ?>
+    <div class="container" style="margin-top:75px; margin-bottom: 85px">
+    @include('components.carousel')
+    @include('components.hotelsearch')
+   
+    
+    </div>
+    
+    @include('components.footer')
 
-</div>
 
-
-<?php include "components/footer.php" ?>

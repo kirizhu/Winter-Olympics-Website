@@ -1,9 +1,15 @@
-<?php include "components/header.php" ?>
+@include('components.header')
+
+
+
+
+
+
 
 <div class="container" style="margin-top:75px; margin-bottom: 85px">
-    <?php include "components/carousel.php" ?>
+@include('components.carousel')
 
 </div>
 
 
-<?php include "components/footer.php" ?>
+@include('components.footer')
