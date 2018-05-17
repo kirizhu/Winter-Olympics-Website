@@ -24,7 +24,8 @@ new Vue({
     currencies: [],
     fromInputResult: "",
     toInputResult: "",
-    selected: ""
+    selected: "",
+    hidetable:true
   },
 
   methods: {

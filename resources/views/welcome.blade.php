@@ -24,9 +24,9 @@
                         <option value="Falun">Falun</option>
                         <option value="Åre">Åre</option>
                     </select>
-                    <button id="submit" v-on:click="fetchData()">Submit</button>
+                    <button id="submit" v-on:click="fetchData();hidetable=!hidetable">Submit</button>
                 </div>
-            <div class="container">
+            <div class="container" v-show="hidetable">
                 <br>
                 <table class="table table-striped">
                     <thead class="thead-dark">
