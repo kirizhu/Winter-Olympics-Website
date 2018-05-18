@@ -70,9 +70,6 @@
                         if(document.getElementById('eventSearch') !== null){
                             document.getElementById('eventSearch').placeholder = eval("arrLang." + selectedLang + ".eventSearch");
                             console.log("find eventSearch id");
-                            console.log(arrLang.en.eventSearch);
-                            console.log(arrLang.en.search);
-                            console.log(arrLang.en);
                         }
 
                     }
