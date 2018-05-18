@@ -5,7 +5,7 @@
         <form class="form-route">
             <div class="box-center location-size">
                 <div class="" style="width: 100%; height: 100%;">
-                    <select class="combobox location-size search-text" id="city" name="to-location">
+                    <select class="combobox location-size search-text" id="city" name="to-location" >
                         <option class="lang" key="select"></option>
                         <option class="lang" key="stockholm" value="Stockholm"></option>
                         <option class="lang" key="falun" value="Falun"></option>

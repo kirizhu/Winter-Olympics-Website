@@ -1,11 +1,11 @@
 <!-- Search Hotel -->
-<div class="container my-3" >
+<div class="container my-3" ng-app>
     <div class="col-xs-12 col-sm-111 col-md-10 col-lg-8 col-center-block box">
 
         <form class="form-route">
             <div class="box-center location-size">
                 <div class="" style="width: 100%; height: 100%;">
-                    <select class="combobox location-size search-text" id="city" name="to-location">
+                    <select class="combobox location-size search-text" id="city" name="to-location" ng-model="selectedCity">
                         <option class="lang" key="select"></option>
                         <option class="lang" key="stockholm" value="Stockholm"></option>
                         <option class="lang" key="falun" value="Falun"></option>
