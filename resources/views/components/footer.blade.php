@@ -9,14 +9,14 @@
             <div class="col-lg-6 col-md-6 col-sm-12 box-center">
                 <div class="btn-group">
                     <a class="btn foot-link lang" key="about" href="#"></a>
-                    <div class="rightline"></div> 
+                    <div class="rightline"></div>
                     <a class="btn foot-link lang" key="contact" href="#"></a>
-                    <div class="rightline"></div> 
+                    <div class="rightline"></div>
                     <a class="btn foot-link lang" key="feedback" href="#"></a>
-                    
-                    <!-- <div class="rightline"></div> 
+
+                    <!-- <div class="rightline"></div>
                     <a id="lan-demo" class="btn foot-link"></a> -->
-            
+
                 </div>
             </div>
             <!-- multi-language -->
@@ -26,7 +26,7 @@
                     <option value="en">English</option>
                     <option value="ch">中文</option>
                 </select>
-                
+
 
                 <script>
                     var arrLang;
@@ -35,20 +35,11 @@
 
                     $.getJSON("json/lang.json", function(result){
                         arrLang = result;
-                                               
-                        
+
                         // Set texts in different languages in placeholders
                         // console.log(eval("arrLang." + lan + ".fromLocation"));
-                        if(document.getElementById('fromLocation') !== null){
-                            document.getElementById('fromLocation').placeholder = eval("arrLang." + lan + ".fromLocation");
-                        }
-                        if(document.getElementById('checkin') !== null){
-                            document.getElementById('checkin').placeholder = eval("arrLang." + lan + ".checkin");
-                        }
-                        if(document.getElementById('checkout') !== null){
-                            document.getElementById('checkout').placeholder = eval("arrLang." + lan + ".checkout");
-                        }
-                        
+                        placeHolderLang(lan);
+
                         $('.lang').each(function(index, element){
                             $(this).text(arrLang[lan][$(this).attr('key')]);
                         });
@@ -58,15 +49,7 @@
                         var langValue = document.getElementById("language").value;
                         localStorage.setItem('myLang', langValue);
 
-                        if(document.getElementById('fromLocation') !== null){
-                            document.getElementById('fromLocation').placeholder = eval("arrLang." + langValue + ".fromLocation");
-                        }
-                        if(document.getElementById('checkin') !== null){
-                            document.getElementById('checkin').placeholder = eval("arrLang." + langValue + ".checkin");
-                        }
-                        if(document.getElementById('checkout') !== null){
-                            document.getElementById('checkout').placeholder = eval("arrLang." + langValue + ".checkout");
-                        }
+                        placeHolderLang(langValue);
 
                         // loop language element to each items when clicked
                         $('.lang').each(function(index, element){
@@ -74,7 +57,25 @@
                         });
                     };
 
+                    function placeHolderLang(selectedLang) {
+                        if(document.getElementById('fromLocation') !== null){
+                            document.getElementById('fromLocation').placeholder = eval("arrLang." + selectedLang + ".fromLocation");
+                        }
+                        if(document.getElementById('checkin') !== null){
+                            document.getElementById('checkin').placeholder = eval("arrLang." + selectedLang + ".checkin");
+                        }
+                        if(document.getElementById('checkout') !== null){
+                            document.getElementById('checkout').placeholder = eval("arrLang." + selectedLang + ".checkout");
+                        }
+                        if(document.getElementById('eventSearch') !== null){
+                            document.getElementById('eventSearch').placeholder = eval("arrLang." + selectedLang + ".eventSearch");
+                            console.log("find eventSearch id");
+                            console.log(arrLang.en.eventSearch);
+                            console.log(arrLang.en.search);
+                            console.log(arrLang.en);
+                        }
 
+                    }
 
 
 
@@ -82,12 +83,12 @@
                     $(function() {
                         switchSize();
                     });
-                    
+
                     // When browser resized
                     $(window).on('resize', function(){
                         switchSize();
                     });
-                    
+
                     function switchSize() {
                         if ($(this).width() < 768) { // on mobile
                             $('.footer').removeClass('fixed-bottom');
@@ -97,7 +98,6 @@
                         }
                     }
 
-                    
                 </script>
 
 
