@@ -20,11 +20,12 @@
             var text = "";
             var i, j;
             for (i = 0; i < ((events.length) / 16); i++) {
-                text += "<th>" + events[i].date + "</th>";
-                console.log(i + ":" + events[i].date)
+                j = 16 * i;
+                text += "<th>" + events[j].date + "</th>";
+                console.log(i + ":" + events[j].date)
             }
             console.log(text);
-            document.getElementById("table-head").innerHTML = text;
+            document.getElementById("table-head").innerHTML = eval(text);
 
             //$('.lang').each(function(index, element){
             //    $(this).text(arrLang[lan][$(this).attr('key')]);
