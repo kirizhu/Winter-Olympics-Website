@@ -1,11 +1,11 @@
 <!-- Search Hotel -->
-<div class="container my-3" ng-app>
+<div class="container my-3">
     <div class="col-xs-12 col-sm-111 col-md-10 col-lg-8 col-center-block box">
 
         <form class="form-route">
             <div class="box-center location-size">
                 <div class="" style="width: 100%; height: 100%;">
-                    <select class="combobox location-size search-text" id="city" name="to-location" ng-model="selectedCity">
+                    <select class="combobox location-size search-text" id="city" name="to-location">
                         <option class="lang" key="select"></option>
                         <option class="lang" key="stockholm" value="Stockholm"></option>
                         <option class="lang" key="falun" value="Falun"></option>
@@ -37,12 +37,12 @@
                     <!-- <div>{{selectedCity}}</div>
                     <div id="date1"></div>
                     <div id="date2"></div> -->
-                
+
                     <button style="width:100%;" class="box-center search-button lang block" key="search" onclick="searchHotel()"></button>
-                    
+
                     <!-- <button onclick="searchHotel()">click me</button> -->
                 </div>
-               
+
 
                 <script type="text/javascript">
                     var checkinDate, checkoutDate, selectedCity;
@@ -55,7 +55,7 @@
                             autoApply: true,
                             minDate: moment(),
                         }, function(start, end) {
-                            console.log("A new date selection was made: " + 
+                            console.log("A new date selection was made: " +
                             start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
                             var days = DateDiff(start.format('YYYY-MM-DD'), end.format('YYYY-MM-DD'));
                             console.log("nights: " + (days));
@@ -78,8 +78,8 @@
                             autoApply: true,
                             minDate: moment(),
                         }, function(start, end) {
-                            console.log("A new date selection was made: " + 
-                            start.format('YYYY-MM-DD') + ' to ' + 
+                            console.log("A new date selection was made: " +
+                            start.format('YYYY-MM-DD') + ' to ' +
                             end.format('YYYY-MM-DD'));
                             var days = DateDiff(start.format('YYYY-MM-DD'), end.format('YYYY-MM-DD'));
                             console.log("nights: " + (days));
@@ -91,7 +91,7 @@
                         });
                         datePicker();
                     });
-                    
+
                     function DateDiff(from, to) {     // from, to are format: 2018-01-01;
                         var dateTemp, dateFrom, dateTo, days;
                         dateTemp = from.split("-");
@@ -163,11 +163,11 @@
                         console.log("checkin: " + checkinYM + "," + checkinD);
                         console.log("checkout: " + checkoutYM +  "," + checkoutD);
 
-                        var linkAddress = "https://www.booking.com/searchresults.en.html?aid=388289&city=-" + cityCode + "&lang=" 
-                        + language + "&selected_currency=" + currency + "&checkin_year_month=" + checkinYM 
+                        var linkAddress = "https://www.booking.com/searchresults.en.html?aid=388289&city=-" + cityCode + "&lang="
+                        + language + "&selected_currency=" + currency + "&checkin_year_month=" + checkinYM
                         + "&checkin_monthday=" + checkinD + "&checkout_year_month=" + checkoutYM + "&checkout_monthday="
                         + checkoutD + "&label=SESto201805021105156592fgd,SESto201805141453552059fdd,r2r_HomepageSearch,1d:2,201805141358";
-                        
+
                         console.log(linkAddress);
                         // window.location.href = linkAddress;
                         //window.open(linkAddress, '_blank');
@@ -177,8 +177,8 @@
                     }
                 </script>
 
-                
-               
+
+
             </div>
 
         </form>
