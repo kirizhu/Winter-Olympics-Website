@@ -1,5 +1,11 @@
 
-
+<section class="container p-t-3">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Bootstrap 4 Card Slider</h1>
+        </div>
+    </div>
+</section>
 <section class="carousel slide" data-ride="carousel" id="postsCarousel">
     <div class="container">
         <div class="row">
@@ -93,16 +99,4 @@
             </div>
         </div>
     </div>
-    <script js>
-        (function($) {
-        "use strict";
-    
-        // manual carousel controls
-        $('.next').click(function(){ $('.carousel').carousel('next');return false; });
-        $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
-        
-    })(jQuery);
-    </script>
-
-
 </section>

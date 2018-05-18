@@ -93,16 +93,13 @@
             </div>
         </div>
     </div>
-    <script js>
-        (function($) {
-        "use strict";
     
-        // manual carousel controls
-        $('.next').click(function(){ $('.carousel').carousel('next');return false; });
-        $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
-        
-    })(jQuery);
-    </script>
+    (function($) {
+    "use strict";
 
-
+    // manual carousel controls
+    $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+    $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+    
+})(jQuery);
 </section>
