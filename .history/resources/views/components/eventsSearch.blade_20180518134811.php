@@ -11,7 +11,7 @@
                         class="form-control input-lg"
                         name="search"
                         id="eventSearch"
-                        placeholder=""
+                        placeholder="&#xF002; Search"
                         required
                         style="padding:10px;
                         
