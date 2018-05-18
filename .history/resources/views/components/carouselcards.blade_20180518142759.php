@@ -33,9 +33,9 @@
                     <div class="card-block p-t-2">
                         
                         <h2>
-                            <a href>Kungsträdgården</a>
+                            <a href>Gamla stan</a>
                         </h2>
-                        <h6 class="small text-wide p-b-2">Kungsträdgården, vardagligt även Kungsan, är en park på Norrmalm i Stockholm. Den och Humlegården är de äldsta bevarade offentliga parkerna i Stockholm. Här låg en gång slottet Makalös.</h6>
+                        <h6 class="small text-wide p-b-2">Gamla stan, till 1980 officiellt Staden mellan broarna, är Stockholms historiska centrum och uppbyggt på Stadsholmen. Även Helgeandsholmen och Strömsborg tillhör stadsdelen Gamla stan.</h6>
                     </div>
                     </div>
                 </div>
