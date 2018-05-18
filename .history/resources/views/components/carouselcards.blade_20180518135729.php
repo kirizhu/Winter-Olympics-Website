@@ -14,7 +14,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="https://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
+                        <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
                     </div>
                     <div class="card-block p-t-2">
                         <h6 class="small text-wide p-b-2">Insight</h6>
