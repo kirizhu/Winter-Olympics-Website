@@ -24,8 +24,7 @@
         "fromLocation": "Anywhere...",
         "checkin": "Click to pick a date",
         "checkout": "Click to pick a date",
-        "eventSearch": "Search"
-
+        "eventSearch": "Ex. ice hockey, Stockholm"
     },
     "ch" : {
         "home": "主页",
@@ -52,7 +51,7 @@
         "fromLocation": "任意地点...",
         "checkin": "点击选择日期",
         "checkout": "点击选择日期",
-        "eventSearch": "111"
+        "eventSearch": "试试: 冰球, 斯德哥尔摩"
     },
     "sv" : {
         "home": "Hem",
@@ -79,6 +78,6 @@
         "fromLocation": "Var som helst...",
         "checkin": "Välja datum",
         "checkout": "Välja datum",
-        "eventSearch": "222"
+        "eventSearch": "Ex. ishockey, Stockholm"
     }
 }
