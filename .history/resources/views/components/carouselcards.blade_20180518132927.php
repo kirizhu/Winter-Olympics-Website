@@ -93,7 +93,7 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript">
+    <script js>
         (function($) {
         "use strict";
     
