@@ -47,7 +47,8 @@
             var i, j;
             for (i = 0; i < ((events.length) / 16); i++) {
                 j = 16 * i;
-                text += "<th>" + events[j].date.substring(3) + "</th>";
+                text += "<th>" + events[j].date.substring(3)
+                    + "<br><b class='lang' key='feb' style='font-size:0.7rem; padding:0; margin:0'></b></th>";
                 console.log(i + ":" + events[j].date.substring(3));
             }
             console.log(text);
