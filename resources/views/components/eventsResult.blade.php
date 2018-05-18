@@ -12,8 +12,9 @@
         console.log("events before:" + events);
         $.getJSON("json/events.json", function(data){
             events = data;
-            console.log("events:" + events);
-            console.log("events:" + events.id);
+            //console.log("events:" + events);
+            console.log("events:" + events[1].sport);
+            console.log("events:" + events[1].city);
 
             //$('.lang').each(function(index, element){
             //    $(this).text(arrLang[lan][$(this).attr('key')]);
