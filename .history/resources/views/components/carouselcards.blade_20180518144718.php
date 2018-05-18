@@ -14,7 +14,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 1">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpqilJUxqicGa9iX5DRrtLU67TMG4p-DZwYCdFys9S4tnrCv-v54TpFl6" alt="Carousel 1">
                     </div>
                     <div class="card-block p-t-2">
                         
@@ -28,7 +28,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 2">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpqilJUxqicGa9iX5DRrtLU67TMG4p-DZwYCdFys9S4tnrCv-v54TpFl6" alt="Carousel 2">
                     </div>
                     <div class="card-block p-t-2">
                         
@@ -43,7 +43,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 3">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpqilJUxqicGa9iX5DRrtLU67TMG4p-DZwYCdFys9S4tnrCv-v54TpFl6" alt="Carousel 3">
                     </div>
                     <div class="card-block p-t-2">
                         

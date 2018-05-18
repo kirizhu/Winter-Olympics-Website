@@ -14,7 +14,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 1">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpqilJUxqicGa9iX5DRrtLU67TMG4p-DZwYCdFys9S4tnrCv-v54TpFl6" alt="Carousel 1">
                     </div>
                     <div class="card-block p-t-2">
                         
@@ -28,7 +28,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 2">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpqilJUxqicGa9iX5DRrtLU67TMG4p-DZwYCdFys9S4tnrCv-v54TpFl6" alt="Carousel 2">
                     </div>
                     <div class="card-block p-t-2">
                         
@@ -43,7 +43,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-img-top card-img-top-250">
-                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 3">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpqilJUxqicGa9iX5DRrtLU67TMG4p-DZwYCdFys9S4tnrCv-v54TpFl6" alt="Carousel 3">
                     </div>
                     <div class="card-block p-t-2">
                         
@@ -76,6 +76,7 @@
                         <img class="img-fluid" src="//visualhunt.com/photos/l/1/working-woman-technology-computer.jpg" alt="Carousel 5">
                     </div>
                     <div class="card-block p-t-2">
+                    <div class="card-block p-t-2">
                         
                         <h2>
                             <a href>Skansen</a>
@@ -90,11 +91,10 @@
                         <img class="img-fluid" src="//visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 6">
                     </div>
                     <div class="card-block p-t-2">
-                        
+                        <h6 class="small text-wide p-b-2">Category 3</h6>
                         <h2>
-                            <a href>Skansen</a>
+                            <a href>Catchy Title of a Blog Post.</a>
                         </h2>
-                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891.</h6>
                     </div>
                 </div>
             </div>
