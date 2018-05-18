@@ -4,8 +4,6 @@
     <div class="col-12 box-temp" style="height: 500px;">
 
 
-
-
         <script>
             var events;
             console.log("events before:" + events);
@@ -29,14 +27,31 @@
             });
         </script>
 
-        <table class="table table-striped">
-            <thead>
-                <tr id="table-head"></tr>
-                <tr id="table-row-1"></tr>
-            </thead>
+        <div class="container">
+            <table class="table table-striped">
+                <thead>
+                    <tr id="table-head"></tr>
+                    <tr id="table-row-1"></tr>
+                    <tr id="table-row-2"></tr>
+                    <tr id="table-row-3"></tr>
+                    <tr id="table-row-4"></tr>
+                    <tr id="table-row-5"></tr>
+                    <tr id="table-row-6"></tr>
+                    <tr id="table-row-7"></tr>
+                    <tr id="table-row-8"></tr>
+                    <tr id="table-row-9"></tr>
+                    <tr id="table-row-10"></tr>
+                    <tr id="table-row-11"></tr>
+                    <tr id="table-row-12"></tr>
+                    <tr id="table-row-13"></tr>
+                    <tr id="table-row-14"></tr>
+                    <tr id="table-row-15"></tr>
+                    <tr id="table-row-16"></tr>
+                </thead>
 
 
-        </table>
+            </table>
+        </div>
     </div>
 </div>
 
