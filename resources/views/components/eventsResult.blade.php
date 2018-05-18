@@ -6,5 +6,18 @@
 
 
     </div>
+
+    <script>
+        var events;
+        $.getJSON("json/events.json", function(result){
+            events = result;
+            console.log("events:" + events);
+            console.log("events:" + events.id);
+
+            //$('.lang').each(function(index, element){
+            //    $(this).text(arrLang[lan][$(this).attr('key')]);
+            //});
+        });
+    </script>
 </div>
 
