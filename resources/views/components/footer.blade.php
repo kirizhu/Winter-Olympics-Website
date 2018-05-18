@@ -39,10 +39,10 @@
                         // Set texts in different languages in placeholders
                         // console.log(eval("arrLang." + lan + ".fromLocation"));
                         placeHolderLang(lan);
-
-                        $('.lang').each(function(index, element){
-                            $(this).text(arrLang[lan][$(this).attr('key')]);
-                        });
+                        textLanguage(lan);
+                        //$('.lang').each(function(index, element){
+                        //    $(this).text(arrLang[lan][$(this).attr('key')]);
+                        //});
                     });
 
                     function setLanguage() {
@@ -51,11 +51,18 @@
 
                         placeHolderLang(langValue);
 
+                        textLanguage(langValue);
                         // loop language element to each items when clicked
-                        $('.lang').each(function(index, element){
-                            $(this).text(arrLang[langValue][$(this).attr('key')]);
-                        });
+                        //$('.lang').each(function(index, element){
+                        //    $(this).text(arrLang[langValue][$(this).attr('key')]);
+                        //});
                     };
+
+                    function textLanguage (selectedLang) {
+                        $('.lang').each(function(index, element){
+                            $(this).text(arrLang[selectedLang][$(this).attr('key')]);
+                        });
+                    }
 
                     function placeHolderLang(selectedLang) {
                         if(document.getElementById('fromLocation') !== null){

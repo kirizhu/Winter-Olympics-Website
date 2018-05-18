@@ -64,6 +64,10 @@
             console.log(textRow1);
             document.getElementById("table-row-1").innerHTML = textRow1;
 
+
+            placeHolderLang(lan);
+            textLanguage(lan);
+
         });
     </script>
 </div>
