@@ -27,9 +27,6 @@
             console.log(text);
             document.getElementById("table-head").innerHTML = eval(text);
 
-            //$('.lang').each(function(index, element){
-            //    $(this).text(arrLang[lan][$(this).attr('key')]);
-            //});
         });
     </script>
 
@@ -37,7 +34,7 @@
             <thead>
               <tr>
                 <th>sports</th>
-                <span class="table-head"></span>
+                <span id="table-head"></span>
               </tr>
             </thead>
 
