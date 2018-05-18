@@ -6,6 +6,10 @@
         <table class="table table-striped ">
             <thead>
                 <tr id="table-head"></tr>
+            </thead>
+
+            <tbody>
+
                 <tr id="table-row-1"></tr>
                 <tr id="table-row-2"></tr>
                 <tr id="table-row-3"></tr>
@@ -22,8 +26,7 @@
                 <tr id="table-row-14"></tr>
                 <tr id="table-row-15"></tr>
                 <tr id="table-row-16"></tr>
-            </thead>
-
+            </tbody>
 
         </table>
 
@@ -39,15 +42,27 @@
             console.log("events:" + events[1].city);
 
             //construct the dates array, and show as table;
-            var text = "<th>sports</th>";
+            //Table head
+            var text = "<th class='lang' key='sports'></th>";
             var i, j;
             for (i = 0; i < ((events.length) / 16); i++) {
                 j = 16 * i;
-                text += "<th>" + events[j].date + "</th>";
-                console.log(i + ":" + events[j].date)
+                text += "<th>" + events[j].date.substring(3) + "</th>";
+                console.log(i + ":" + events[j].date.substring(3));
             }
             console.log(text);
             document.getElementById("table-head").innerHTML = text;
+
+            // Table Row 1
+            var textRow1 = "<th scope='row' class='lang' key='"+ events[0].sport + "'></th>";
+            var i1, j1;
+            for (i1 = 0; i1 < ((events.length) / 16); i1++) {
+                j1 = 16 * i1;
+                textRow1 += "<th>" + events[j1].note + "</th>";
+                console.log(i1 + ":" + events[j1].note);
+            }
+            console.log(textRow1);
+            document.getElementById("table-row-1").innerHTML = textRow1;
 
         });
     </script>
