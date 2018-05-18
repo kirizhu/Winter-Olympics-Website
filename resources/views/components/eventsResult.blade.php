@@ -9,8 +9,9 @@
 
     <script>
         var events;
-        $.getJSON("json/events.json", function(result){
-            events = result;
+        console.log("events before:" + events);
+        $.getJSON("json/events.json", function(data){
+            events = data;
             console.log("events:" + events);
             console.log("events:" + events.id);
 
