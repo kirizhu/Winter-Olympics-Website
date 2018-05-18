@@ -50,7 +50,6 @@
                         <h2>
                             <a href>Skansen</a>
                         </h2>
-                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891.</h6>
                     </div>
                 </div>
             </div>

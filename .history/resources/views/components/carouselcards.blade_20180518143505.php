@@ -46,11 +46,10 @@
                         <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpqilJUxqicGa9iX5DRrtLU67TMG4p-DZwYCdFys9S4tnrCv-v54TpFl6" alt="Carousel 3">
                     </div>
                     <div class="card-block p-t-2">
-                        
+                        <h6 class="small text-wide p-b-2">Design</h6>
                         <h2>
-                            <a href>Skansen</a>
+                            <a href>Responsive is Essential.</a>
                         </h2>
-                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891.</h6>
                     </div>
                 </div>
             </div>
