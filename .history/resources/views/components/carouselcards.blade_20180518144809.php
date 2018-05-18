@@ -36,7 +36,7 @@
                             <a href>Kungsträdgården</a>
                         </h2>
                         <h6 class="small text-wide p-b-2">Kungsträdgården, vardagligt även Kungsan, är en park på Norrmalm i Stockholm. Den och Humlegården är de äldsta bevarade offentliga parkerna i Stockholm. Här låg en gång slottet Makalös.</h6>
-                    
+                    </div>
                     </div>
                 </div>
             </div>
@@ -50,8 +50,8 @@
                         <h2>
                             <a href>Skansen</a>
                         </h2>
-                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891. Ett måste för barnfamiljer</h6>
-                    
+                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891.</h6>
+                    </div>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                         <h2>
                             <a href>Skansen</a>
                         </h2>
-                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891. Ett måste för barnfamiljer</h6>
+                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891.</h6>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                         <h2>
                             <a href>Skansen</a>
                         </h2>
-                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891.Ett måste för barnfamiljer</h6>
+                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891.</h6>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                         <h2>
                             <a href>Skansen</a>
                         </h2>
-                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891.Ett måste för barnfamiljer</h6>
+                        <h6 class="small text-wide p-b-2">Skansen är ett stiftelseägt svenskt friluftsmuseum med djurpark på Djurgården i Stockholm, grundat av Artur Hazelius. Skansen invigdes den 11 oktober 1891.</h6>
                     </div>
                 </div>
             </div>
