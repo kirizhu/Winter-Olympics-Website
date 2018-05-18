@@ -25,7 +25,7 @@
                 console.log(i + ":" + events[j].date)
             }
             console.log(text);
-            document.getElementById("table-head").innerHTML = eval(text);
+            document.getElementById("table-head").innerHTML = text;
 
         });
     </script>
