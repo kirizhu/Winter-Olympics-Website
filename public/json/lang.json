@@ -1,5 +1,6 @@
 {
     "en" : {
+        "title": "Welcome to Sweden",
         "home": "Home",
         "event": "Events",
         "city": "Cities/Hotels",
@@ -27,6 +28,7 @@
         "eventSearch": "Ex. ice hockey, Stockholm"
     },
     "ch" : {
+        "title": "欢迎来瑞典",
         "home": "主页",
         "event": "项目",
         "city": "城市/住宿",
@@ -54,6 +56,7 @@
         "eventSearch": "试试: 冰球, 斯德哥尔摩"
     },
     "sv" : {
+        "title": "Välkommen till Sverige",
         "home": "Hem",
         "event": "Event",
         "city": "Städer/Hotell",
