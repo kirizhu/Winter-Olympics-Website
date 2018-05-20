@@ -169,6 +169,18 @@
    margin-top: auto;
    margin-bottom: auto;
 }
+/*
+body och footer
+*/
+#body {
+
+    margin-bottom: 200px;
+    
+ }
+ .footer {
+    position: fixed;
+    bottom: 0;
+}
 
 .foot-link {
     color: white;
