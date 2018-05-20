@@ -57,10 +57,10 @@ if (idx >= totalItems-(itemsPerSlide-1)) {
     for (var i=0; i<it; i++) {
         // append slides to end
         if (e.direction=="left") {
-            $('#carouselitem').eq(i).appendTo('#carouselinner');
+            $('#carouselitem').eq(i).appendTo('.carousel-inner');
         }
         else {
-            $('.#carouselitem').eq(0).appendTo('#carouselinner');
+            $('.#carouselitem').eq(0).appendTo('.carousel-inner');
         }
     }
 }

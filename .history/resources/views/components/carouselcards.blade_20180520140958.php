@@ -60,7 +60,7 @@ if (idx >= totalItems-(itemsPerSlide-1)) {
             $('#carouselitem').eq(i).appendTo('#carouselinner');
         }
         else {
-            $('.#carouselitem').eq(0).appendTo('#carouselinner');
+            $('.#carouselitem').eq(0).appendTo('.carousel-inner');
         }
     }
 }

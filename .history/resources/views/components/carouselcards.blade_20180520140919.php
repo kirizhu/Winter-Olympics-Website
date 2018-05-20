@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/carouselcard.css">
 <div class="container-fluid">
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
-        <div id="carouselinner" class="carousel-inner row w-100 mx-auto" role="listbox">
+        <div class="carousel-inner row w-100 mx-auto" role="listbox">
             <div id="carouselitem" class="carousel-item col-md-4 active">
                 <img class="img-fluid mx-auto d-block" src="//placehold.it/600x400/000/fff?text=1" alt="slide 1">
             </div>
@@ -57,10 +57,10 @@ if (idx >= totalItems-(itemsPerSlide-1)) {
     for (var i=0; i<it; i++) {
         // append slides to end
         if (e.direction=="left") {
-            $('#carouselitem').eq(i).appendTo('#carouselinner');
+            $('#carouselitem').eq(i).appendTo('.carousel-inner');
         }
         else {
-            $('.#carouselitem').eq(0).appendTo('#carouselinner');
+            $('.carousel-item').eq(0).appendTo('.carousel-inner');
         }
     }
 }

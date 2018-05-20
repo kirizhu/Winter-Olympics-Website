@@ -1,0 +1,216 @@
+.title-2sweden {
+    font-size: 2rem;
+    margin: auto;
+}
+
+.box {
+    border: 2px solid #2d5fa1ce;
+    border-radius: 5px;
+    background-color: #2d5fa1ce;
+}
+.center{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.centerSymbol{
+    color: #ffca20;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1;
+    padding: 0;
+}
+.input-text {
+    color: white;
+}
+
+.box-temp {
+    border: 2px solid #ffca20;
+    border-radius: 10px;
+}
+
+.col-center-block {  
+    float: none;  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+} 
+
+.location-size {
+    width: 100%;
+    min-width: 193px;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+
+.box-center {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: none;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    min-height: 50px;
+}
+
+.datehotel {
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-align: left;
+    height: 2rem;
+    min-height: 50px;
+    width: 100%;
+}
+
+
+.form-route {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search-button {
+    background-color: #e3e3e3;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    width:100%;
+    -webkit-transition-duration: 2s; /* Safari */
+    transition-duration: 2s;
+}
+
+.search-button:hover {
+    background-color: #ffca20;
+    color: white;
+}
+
+.share-button {
+    background-color: transparent;
+    font-size: 2rem;
+    border: 1px solid #2d5fa1;
+    border-radius: 5px;
+    color: #2d5fa1;
+    padding: 5px 6px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.search-text{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    border: none;
+}
+.language {
+    width: 80%;
+    height: 80%;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.revers-button {
+    margin: auto;
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.info-label {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    color: #2d5fa1;
+    min-width: 50px;
+}
+
+.route-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-bottom: 150px;
+}
+.footer {
+    min-height: 70px;
+    background-color: #2d5fa1d8;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+.copyright {
+    color: #ffca20;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.copyright p {
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+
+.rightline {
+   float:left;
+   width: 1px;
+   height: 25px; 
+   background: #fff;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.foot-link {
+    color: white;
+}
+
+.foot-link:hover {
+    color: #ffca20;
+}
+
+/* select#language option[value="swedish"] {
+    background-image: url(img/flag/sweden.svg);
+}
+select#language option[value="english"] {
+    background-image: url(img/flag/png/flag-china.png);
+} */
+
+input[type=text]:focus {
+    background-color: #e3e3e3;
+}
+
+.navbar-custom {
+    background-color: #2d5fa1;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+id="carouselinner"
+id="carouselitem"
