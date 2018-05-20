@@ -1,5 +1,5 @@
 </body>
-<div class="footer">
+<div class="footer fixed-bottom">
     <div class="container">
         <div class="row">
             <!-- copyright -->

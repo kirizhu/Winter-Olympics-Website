@@ -169,17 +169,19 @@
    margin-top: auto;
    margin-bottom: auto;
 }
-/*
-body och footer eddy
-*/
 #body {
 
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     
  }
  .footer {
     position: fixed;
+    left: 0;
     bottom: 0;
+    
+    background-color: red;
+    color: white;
+    text-align: center;
 }
 
 .foot-link {

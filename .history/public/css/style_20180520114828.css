@@ -169,12 +169,9 @@
    margin-top: auto;
    margin-bottom: auto;
 }
-/*
-body och footer eddy
-*/
 #body {
 
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     
  }
  .footer {
