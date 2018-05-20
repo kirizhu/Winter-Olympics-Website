@@ -1,6 +1,12 @@
 <div class="container-fluid">
 <div class="row-fluid">
 <div class="span12">
+
+    <div class="page-header">
+        <h3>Bootstrap</h3>
+        <p>Responsive Moving Box Carousel Demo</p>
+    </div>
+        
     <div class="carousel slide" id="myCarousel">
         <div class="carousel-inner">
             <div class="item active">
@@ -147,7 +153,6 @@
 </div><!-- /.span12 -->          
 </div><!-- /.row --> 
 </div><!-- /.container -->
-
 <script>
 
 // Carousel Auto-Cycle
@@ -157,6 +162,6 @@
     })
   });
 </script>  
-
+</div>
 
 

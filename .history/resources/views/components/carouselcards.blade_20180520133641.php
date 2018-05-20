@@ -1,6 +1,7 @@
 <div class="container-fluid">
 <div class="row-fluid">
 <div class="span12">
+        
     <div class="carousel slide" id="myCarousel">
         <div class="carousel-inner">
             <div class="item active">

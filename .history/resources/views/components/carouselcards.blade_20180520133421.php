@@ -1,6 +1,12 @@
 <div class="container-fluid">
 <div class="row-fluid">
 <div class="span12">
+
+    <div class="page-header">
+        <h3>Bootstrap</h3>
+        <p>Responsive Moving Box Carousel Demo</p>
+    </div>
+        
     <div class="carousel slide" id="myCarousel">
         <div class="carousel-inner">
             <div class="item active">
@@ -148,15 +154,25 @@
 </div><!-- /.row --> 
 </div><!-- /.container -->
 
+                            
+<!-- Delete This -->                        
+<div class="footer">
+<a href="http://simonalex.com/">&hearts; Redfrost</a> | <a href="https://twitter.github.com/bootstrap/">Get Bootstrap</a> | <a href="http://placehold.it/">Get Placeholder</a>   
+    <p class="right">&lsaquo; Resize Window &rsaquo;</p>
+    <p>&nbsp;</p>
+    <p><strong>*VISIT THIS LINK FOR IE9 FIX: <a href="https://codepen.io/redfrost/pen/yKAmc"  target="_blank">https://codepen.io/redfrost/pen/yKAmc</a>
+        
+        
+<strong></p>  
 <script>
 
-// Carousel Auto-Cycle
+
       $(document).ready(function() {
     $('.carousel').carousel({
       interval: 6000
     })
   });
 </script>  
-
+</div>
 
 
