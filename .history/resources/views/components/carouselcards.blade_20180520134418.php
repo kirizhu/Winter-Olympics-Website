@@ -2,7 +2,7 @@
 
 <div class="container">
     <div class="col-md-12">
-         <h1>Stockholm</h1>
+         <h1>Bootstrap 3 Thumbnail Slider</h1>
 
         <div class="card bg-faded">
             <div id="myCarousel" class="carousel slide">
@@ -60,20 +60,5 @@
         </div>
         <!--/well-->
     </div>
-    <script>
-    $(document).ready(function() {
-	$('#myCarousel').carousel({
-	interval: 10000
-	})
-    
-    $('#myCarousel').on('slid.bs.carousel', function() {
-    	//alert("slid");
-	});
-    
-    
-});
-
-
-    </script>
 </div>
 

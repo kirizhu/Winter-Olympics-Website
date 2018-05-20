@@ -213,7 +213,3 @@ input[type=text]:focus {
     color: #ffffff;
 }
 /* carousel cards */
-.carousel-control {
-    padding-top:10%;
-    width:5%;
-  }
