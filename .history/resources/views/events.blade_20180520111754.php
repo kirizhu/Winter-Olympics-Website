@@ -8,5 +8,5 @@
 
 
 </div>
-</body>
+
 @include('components.footer')

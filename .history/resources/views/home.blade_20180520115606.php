@@ -1,13 +1,14 @@
  
  @include('components.header')
 
+
     <div class="container" style="margin-top:75px; margin-bottom: 85px">
     @include('components.carousel')
-    @include('components.hotelsearch')
-    @include('components.carouselcards')
+    @include('components.routesearch')
+    @include('components.routeresult')
     
     </div>
+    <body>
+        
     </body>
     @include('components.footer')
-
-
