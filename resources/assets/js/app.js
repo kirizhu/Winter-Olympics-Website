@@ -32,7 +32,7 @@ new Vue({
     fetchData: function() {
       var self = this;
 
-      var api = "https://free.rome2rio.com/api/1.4/json/Search?key=S2Q8spaR";
+      var api = "https://free.rome2rio.com/api/1.4/json/Search?key=insertyourkeyhere";
 
       var fromInput = fromInputResult.value;
       var toInput = selected.value;
