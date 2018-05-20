@@ -1,4 +1,4 @@
-</body>
+
 <div class="footer fixed-bottom">
     <div class="container">
         <div class="row">
@@ -112,5 +112,5 @@
 </div>
 
 
-
+</body>
 </html>
