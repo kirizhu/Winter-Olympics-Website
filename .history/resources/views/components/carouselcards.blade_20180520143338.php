@@ -170,7 +170,7 @@ if (idx >= totalItems-(itemsPerSlide-1)) {
     }
 }
 });
-$('#carousel3').on('slide.bs.carousel', function (e) {
+$('#carousel1').on('slide.bs.carousel', function (e) {
 
 /*
 

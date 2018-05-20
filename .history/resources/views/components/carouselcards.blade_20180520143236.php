@@ -1,6 +1,6 @@
 Stockholm
 <div class="container-fluid">
-    <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="9000">
+    <div id="stockholm" class="carousel slide" data-ride="carousel" data-interval="9000">
         <div id="carouselinner" class="carousel-inner row w-100 mx-auto" role="listbox">
             <div id="carouselitem" class="carousel-item col-md-4 active">
                 <img class="img-fluid mx-auto d-block" src="//placehold.it/600x400/000/fff?text=1" alt="slide 1">
@@ -39,7 +39,7 @@ Stockholm
 </div>
 Åre
 <div class="container-fluid">
-    <div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="9000">
+    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
         <div id="carouselinner" class="carousel-inner row w-100 mx-auto" role="listbox">
             <div id="carouselitem" class="carousel-item col-md-4 active">
                 <img class="img-fluid mx-auto d-block" src="//placehold.it/600x400/000/fff?text=1" alt="slide 1">
@@ -78,7 +78,7 @@ Stockholm
 </div>
 Falun
 <div class="container-fluid">
-    <div id="carousel3" class="carousel slide" data-ride="carousel" data-interval="9000">
+    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
         <div id="carouselinner" class="carousel-inner row w-100 mx-auto" role="listbox">
             <div id="carouselitem" class="carousel-item col-md-4 active">
                 <img class="img-fluid mx-auto d-block" src="//placehold.it/600x400/000/fff?text=1" alt="slide 1">
@@ -116,61 +116,7 @@ Falun
     </div>
 </div>
     <script>
-$('#carousel1').on('slide.bs.carousel', function (e) {
-
-/*
-
-CC 2.0 License Iatek LLC 2018
-Attribution required
-
-*/
-
-var $e = $(e.relatedTarget);
-var idx = $e.index();
-var itemsPerSlide = 3;
-var totalItems = $('#carouselitem').length;
-
-if (idx >= totalItems-(itemsPerSlide-1)) {
-    var it = itemsPerSlide - (totalItems - idx);
-    for (var i=0; i<it; i++) {
-        // append slides to end
-        if (e.direction=="left") {
-            $('#carouselitem').eq(i).appendTo('#carouselinner');
-        }
-        else {
-            $('#carouselitem').eq(0).appendTo('#carouselinner');
-        }
-    }
-}
-});
-$('#carousel2').on('slide.bs.carousel', function (e) {
-
-/*
-
-CC 2.0 License Iatek LLC 2018
-Attribution required
-
-*/
-
-var $e = $(e.relatedTarget);
-var idx = $e.index();
-var itemsPerSlide = 3;
-var totalItems = $('#carouselitem').length;
-
-if (idx >= totalItems-(itemsPerSlide-1)) {
-    var it = itemsPerSlide - (totalItems - idx);
-    for (var i=0; i<it; i++) {
-        // append slides to end
-        if (e.direction=="left") {
-            $('#carouselitem').eq(i).appendTo('#carouselinner');
-        }
-        else {
-            $('#carouselitem').eq(0).appendTo('#carouselinner');
-        }
-    }
-}
-});
-$('#carousel3').on('slide.bs.carousel', function (e) {
+$('#carouselExample').on('slide.bs.carousel', function (e) {
 
 /*
 
