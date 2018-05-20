@@ -37,7 +37,7 @@ Stockholm
         </a>
     </div>
 </div>
-Åre
+Stockholm
 <div class="container-fluid">
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
         <div id="carouselinner" class="carousel-inner row w-100 mx-auto" role="listbox">
@@ -76,7 +76,7 @@ Stockholm
         </a>
     </div>
 </div>
-Falun
+Stockholm
 <div class="container-fluid">
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
         <div id="carouselinner" class="carousel-inner row w-100 mx-auto" role="listbox">
