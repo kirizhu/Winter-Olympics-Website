@@ -27,11 +27,11 @@ Stockholm
                 <img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=8" alt="slide 7">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
             <i class="fa fa-chevron-left fa-lg text-muted"></i>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next text-faded" href="#carousel1" role="button" data-slide="next">
+        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
             <i class="fa fa-chevron-right fa-lg text-muted"></i>
             <span class="sr-only">Next</span>
         </a>
@@ -66,11 +66,11 @@ Stockholm
                 <img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=8" alt="slide 7">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
             <i class="fa fa-chevron-left fa-lg text-muted"></i>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next text-faded" href="##carousel2" role="button" data-slide="next">
+        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
             <i class="fa fa-chevron-right fa-lg text-muted"></i>
             <span class="sr-only">Next</span>
         </a>
@@ -105,11 +105,11 @@ Falun
                 <img class="img-fluid mx-auto d-block" src="//placehold.it/600x400?text=8" alt="slide 7">
             </div>
         </div>
-        <a class="carousel-control-prev" href="##carousel3" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
             <i class="fa fa-chevron-left fa-lg text-muted"></i>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next text-faded" href="##carousel3" role="button" data-slide="next">
+        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
             <i class="fa fa-chevron-right fa-lg text-muted"></i>
             <span class="sr-only">Next</span>
         </a>

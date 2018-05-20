@@ -109,7 +109,7 @@ Falun
             <i class="fa fa-chevron-left fa-lg text-muted"></i>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next text-faded" href="##carousel3" role="button" data-slide="next">
+        <a class="carousel-control-next text-faded" href="##carousel1" role="button" data-slide="next">
             <i class="fa fa-chevron-right fa-lg text-muted"></i>
             <span class="sr-only">Next</span>
         </a>
