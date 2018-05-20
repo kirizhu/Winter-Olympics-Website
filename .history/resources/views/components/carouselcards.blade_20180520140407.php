@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/carouselcard.css">
+
 <div class="container-fluid">
     <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
         <div class="carousel-inner row w-100 mx-auto" role="listbox">
