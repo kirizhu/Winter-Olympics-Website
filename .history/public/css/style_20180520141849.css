@@ -247,7 +247,7 @@ input[type=text]:focus {
     #carouselinner .active.carousel-item-left + .carousel-item-next.carousel-item-left,
     #carouselinner .carousel-item-next.carousel-item-left + .carousel-item,
     #carouselinner .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
-    #carouselinner .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
         position: relative;
         transform: translate3d(-100%, 0, 0);
         visibility: visible;
@@ -264,10 +264,10 @@ input[type=text]:focus {
     }
     
     /* right or prev direction */
-    #carouselinner .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-    #carouselinner .carousel-item-prev.carousel-item-right + .carousel-item,
-    #carouselinner .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
-    #carouselinner .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
         position: relative;
         transform: translate3d(100%, 0, 0);
         visibility: visible;
