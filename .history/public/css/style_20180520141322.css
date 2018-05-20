@@ -216,25 +216,25 @@ input[type=text]:focus {
 @media (min-width: 768px) {
 
     /* show 3 items */
-    #carouselinner .active,
-    #carouselinner .active + .carousel-item,
-    #carouselinner .active + .carousel-item + .carousel-item {
+    #carouselitem .active,
+    carouselitem .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item {
         display: block;
     }
     
-    #carouselinner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-    #carouselinner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
-    #carouselinner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
         transition: none;
     }
     
-    #carouselinner .carousel-item-next,
-    #carouselinner .carousel-item-prev {
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
       position: relative;
       transform: translate3d(0, 0, 0);
     }
     
-    #carouselinner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
         position: absolute;
         top: 0;
         right: -33.3333%;
@@ -254,7 +254,7 @@ input[type=text]:focus {
     }
     
     /* farthest right hidden item must be abso position for animations */
-    #carouselinner .carousel-item-prev.carousel-item-right {
+    .carousel-inner .carousel-item-prev.carousel-item-right {
         position: absolute;
         top: 0;
         left: 0;

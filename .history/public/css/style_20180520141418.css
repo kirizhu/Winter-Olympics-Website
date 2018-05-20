@@ -254,7 +254,7 @@ input[type=text]:focus {
     }
     
     /* farthest right hidden item must be abso position for animations */
-    #carouselinner .carousel-item-prev.carousel-item-right {
+    .carousel-inner .carousel-item-prev.carousel-item-right {
         position: absolute;
         top: 0;
         left: 0;
