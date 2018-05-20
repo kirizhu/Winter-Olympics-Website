@@ -32,7 +32,7 @@ new Vue({
     fetchData: function() {
       var self = this;
 
-      var api = "insert api key here";
+      var api = "";
 
       var fromInput = fromInputResult.value;
       var toInput = selected.value;
